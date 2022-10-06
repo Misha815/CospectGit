@@ -53,3 +53,19 @@
 4. Производим все изменения только в этой ветке
 5. Отправляем эти изменения на свой аккаунт (push)
 6. Окне на GitHub появляется возможность отправлять pull request
+
+# Соединение Git - GitHub
+# …or create a new repository on the command line
+* echo "# Conspect" >> README.md
+* git init
+* git add README.md
+* git commit -m "first commit"
+* git branch -M main
+* git remote add origin https://github.com/Misha815/Conspect.git
+* git push -u origin main
+
+
+# …or push an existing repository from the command line
+* git remote add origin https://github.com/Misha815/Conspect.git
+* git branch -M main
+* git push -u origin main
